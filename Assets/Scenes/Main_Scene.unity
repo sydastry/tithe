@@ -1953,6 +1953,7 @@ MonoBehaviour:
   portraits:
   - {fileID: 21300000, guid: 5e2d772b00ef34a3fb3beababeff213f, type: 3}
   - {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  - {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 997589386}
   description: 
@@ -2730,6 +2731,7 @@ MonoBehaviour:
   portraits:
   - {fileID: 21300000, guid: 5e2d772b00ef34a3fb3beababeff213f, type: 3}
   - {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  - {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 1542374397}
   description: 
@@ -4649,7 +4651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -576.0499, y: 169.44165}
+  scrollPos: {x: -624.6191, y: -774.1867}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 383.5
@@ -4661,9 +4663,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 991451055}
+  - {fileID: 991451415}
   selectedCommands:
-  - {fileID: 991451602}
+  - {fileID: 991451414}
   variables:
   - {fileID: 991450688}
   - {fileID: 991450967}
@@ -22954,8 +22956,8 @@ MonoBehaviour:
   storyText: Finch seems cowed by this, and takes a step back from the porch, holding
     up their hands.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22983,7 +22985,7 @@ MonoBehaviour:
     your yard. But I mean you no harm, I promise."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23010,7 +23012,7 @@ MonoBehaviour:
   storyText: I just came to say hello. Maybe make a new friend.
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23039,8 +23041,8 @@ MonoBehaviour:
 
 '
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23583,8 +23585,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Wow. They\u2019re really fixated on this TV."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23698,8 +23700,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Finch nods gravely.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23725,8 +23727,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Finch goes pale.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23955,7 +23957,7 @@ MonoBehaviour:
   storyText: "You don\u2019t think it\u2019s actually broken, do you?"
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23982,7 +23984,7 @@ MonoBehaviour:
   storyText: You should never joke about such things.
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24009,8 +24011,8 @@ MonoBehaviour:
   storyText: You patiently explain that you were trying to make a joke about the
     TV being broken.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24037,7 +24039,7 @@ MonoBehaviour:
   storyText: Unless what?
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24235,7 +24237,7 @@ MonoBehaviour:
   storyText: "Oh, and don\u2019t forget to grab your gift basket!"
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24262,7 +24264,7 @@ MonoBehaviour:
   storyText: You definitely will!
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24286,7 +24288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 823
   indentLevel: 0
-  storyText: "Player: \u201CI guess I\u2019ll see you around?\u201D"
+  storyText: "\u201CI guess I\u2019ll see you around?\u201D"
   description: 
   character: {fileID: 476557185}
   portrait: {fileID: 0}
