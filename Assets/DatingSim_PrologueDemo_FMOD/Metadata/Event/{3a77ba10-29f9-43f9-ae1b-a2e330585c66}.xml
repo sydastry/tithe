@@ -203,6 +203,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{44ad73e0-f2b8-418f-9152-45cf40ecbdc9}">
+		<property name="volume">
+			<value>-8.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{e4c18371-0604-4e8a-96af-cb670496bf16}</destination>
 		</relationship>
@@ -558,6 +561,9 @@
 			<destination>{f646975d-15e9-4ad4-811a-f84982599c8b}</destination>
 			<destination>{12aacddb-9841-4598-b687-1ba5d7d33e61}</destination>
 		</relationship>
+		<relationship name="playPercentages">
+			<destination>{d20c6bc7-813f-4c8a-86d1-1f6306a6df36}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5b455887-aa30-46b1-ab1a-0780593cadcb}">
 		<property name="name">
@@ -903,6 +909,14 @@
 			<destination>{5aa4f473-1efe-4325-a9f8-3a213b03cef3}</destination>
 		</relationship>
 	</object>
+	<object class="PlayPercentage" id="{d20c6bc7-813f-4c8a-86d1-1f6306a6df36}">
+		<property name="percentage">
+			<value>30</value>
+		</property>
+		<relationship name="sound">
+			<destination>{12aacddb-9841-4598-b687-1ba5d7d33e61}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{ab699ff3-8c7e-46db-8523-d420f072c210}">
 		<relationship name="effects">
 			<destination>{18aee787-edd5-497a-9b09-8f4b4cdd512b}</destination>
@@ -973,7 +987,7 @@
 	</object>
 	<object class="ParameterCondition" id="{616fb47f-7560-42ee-bb4f-6055b2e4ec88}">
 		<property name="minimum">
-			<value>1</value>
+			<value>0.11499999463558197</value>
 		</property>
 		<property name="maximum">
 			<value>1</value>
