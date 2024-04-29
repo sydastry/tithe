@@ -167,8 +167,11 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
+  - {fileID: 21300000, guid: a5d238786ff2f854e8937f14dead993a, type: 3}
   - {fileID: 21300000, guid: 8f529b17ca4dc4d4b92dd71714ab8cc8, type: 3}
+  - {fileID: 21300000, guid: 16812d62a37968c4daf666d5f55b0231, type: 3}
   - {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
+  - {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   - {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 997589386}
@@ -572,14 +575,14 @@ RectTransform:
   m_GameObject: {fileID: 49197928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.09, y: 1.09, z: 1.09}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1464470365}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 140, y: -49}
+  m_AnchoredPosition: {x: 160.11, y: -73.3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &49197930
@@ -723,14 +726,14 @@ RectTransform:
   m_GameObject: {fileID: 50081257}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.4, y: 6.47, z: 4.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1648311394}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.32, y: -62.4}
+  m_AnchoredPosition: {x: -0.54, y: -20.97}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &50081259
@@ -740,7 +743,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50081257}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bab461c1623b44b6cb36add12f4d8bc9, type: 3}
   m_Name: 
@@ -767,7 +770,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 14550d8b0128b4688b8648efb4f11bb3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 41311a7905bfecd4abfc99d49237e90d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -874,8 +877,10 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
+  - {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   - {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   - {fileID: 21300000, guid: 23a2827dbce2448b3940c2c17e9d426b, type: 3}
+  - {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   - {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 1542374397}
@@ -1350,7 +1355,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1f5eb6e9a5caa44d08ccf90cbd7c6c41, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8d4b630cc891c87449220f3115b84e84, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1952,8 +1957,11 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
+  - {fileID: 21300000, guid: 4554b6cd447d5c145813df698235d225, type: 3}
   - {fileID: 21300000, guid: 5e2d772b00ef34a3fb3beababeff213f, type: 3}
+  - {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   - {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  - {fileID: 21300000, guid: e22446d443373fb4f8283abe3919e0c2, type: 3}
   - {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 997589386}
@@ -2079,7 +2087,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a1992cc9687a44553914b9a32a999ab8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8926a03f7b9df1c4aa535f051176cc08, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2433,14 +2441,14 @@ RectTransform:
   m_GameObject: {fileID: 592094871}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.4, y: 6.47, z: 4.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1464470365}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.32, y: -62.4}
+  m_AnchoredPosition: {x: -0.54, y: -20.97}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &592094873
@@ -2463,7 +2471,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 14550d8b0128b4688b8648efb4f11bb3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 41311a7905bfecd4abfc99d49237e90d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2488,7 +2496,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592094871}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bab461c1623b44b6cb36add12f4d8bc9, type: 3}
   m_Name: 
@@ -2664,7 +2672,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1f5eb6e9a5caa44d08ccf90cbd7c6c41, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8d4b630cc891c87449220f3115b84e84, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2730,8 +2738,11 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
+  - {fileID: 21300000, guid: 4554b6cd447d5c145813df698235d225, type: 3}
   - {fileID: 21300000, guid: 5e2d772b00ef34a3fb3beababeff213f, type: 3}
+  - {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   - {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  - {fileID: 21300000, guid: e22446d443373fb4f8283abe3919e0c2, type: 3}
   - {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 1542374397}
@@ -2877,11 +2888,17 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
+  - {fileID: 21300000, guid: e13711ca009bb7a4fa7020a1cb070b5a, type: 3}
   - {fileID: 21300000, guid: 11f7a61cacae749ec9bea5412d38e3e3, type: 3}
+  - {fileID: 21300000, guid: db73836ede15faa4a85a649de53e25f0, type: 3}
   - {fileID: 21300000, guid: e6b7dc34cec7649aeae74b0c1091f650, type: 3}
+  - {fileID: 21300000, guid: 8f04e69217cdcde488ecc94558ca71d6, type: 3}
   - {fileID: 21300000, guid: 5063e04e42397431596db32a0a3129c4, type: 3}
+  - {fileID: 21300000, guid: 34057d3f537057043993aa2fae56ce9b, type: 3}
   - {fileID: 21300000, guid: fe1a6b1c354634285bcd3ebe4ad502bb, type: 3}
+  - {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   - {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  - {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   - {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 997589386}
@@ -4615,6 +4632,9 @@ GameObject:
   - component: {fileID: 991451613}
   - component: {fileID: 991451612}
   - component: {fileID: 991451611}
+  - component: {fileID: 991451614}
+  - component: {fileID: 991451615}
+  - component: {fileID: 991451616}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4663,11 +4683,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -316.49838, y: -1035.0875}
+  scrollPos: {x: 440.08798, y: 244.47964}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 383.5
-  zoom: 0.5057489
+  zoom: 0.35574892
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4675,9 +4695,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 991451463}
+  - {fileID: 991451174}
   selectedCommands:
-  - {fileID: 991451542}
+  - {fileID: 991451616}
   variables:
   - {fileID: 991450688}
   - {fileID: 991450967}
@@ -6991,6 +7011,7 @@ MonoBehaviour:
   - {fileID: 991451168}
   - {fileID: 991451167}
   - {fileID: 991451166}
+  - {fileID: 991451614}
   - {fileID: 991451493}
   - {fileID: 991451165}
   - {fileID: 991451492}
@@ -7102,7 +7123,7 @@ MonoBehaviour:
   storyText: 'Dolly hands you a laminated menu. You look over the drinks. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7129,7 +7150,7 @@ MonoBehaviour:
   storyText: "Dolly doesn\u2019t bother looking up from her notepad."
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7155,8 +7176,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: A heavy clunking sound comes from the kitchen and Dolly sighs.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7218,7 +7239,7 @@ MonoBehaviour:
   storyText: Be seeing you.
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7295,7 +7316,7 @@ MonoBehaviour:
   storyText: How's your drink?
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7322,7 +7343,7 @@ MonoBehaviour:
   storyText: You order the Monday Blues and Dolly smiles.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7541,7 +7562,7 @@ MonoBehaviour:
   storyText: How's your drink?
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7568,7 +7589,7 @@ MonoBehaviour:
   storyText: It is good, though. Very good.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7596,7 +7617,7 @@ MonoBehaviour:
     sweetness that you wouldn\u2019t expect at all."
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7623,7 +7644,7 @@ MonoBehaviour:
   storyText: Strawberry? Pineapple? The smell seems to change over time.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7650,7 +7671,7 @@ MonoBehaviour:
   storyText: She brings a glass of reddish-pink liquid to you, and you take a sip.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7704,7 +7725,7 @@ MonoBehaviour:
   storyText: How's your drink?
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7732,7 +7753,7 @@ MonoBehaviour:
     a bit of a kick."
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7760,7 +7781,7 @@ MonoBehaviour:
     on your fingertips.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7788,7 +7809,7 @@ MonoBehaviour:
     vanilla.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7816,7 +7837,7 @@ MonoBehaviour:
     sells alcohol?
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7843,7 +7864,7 @@ MonoBehaviour:
   storyText: A couple of minutes later, she comes back with a small cup.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7870,7 +7891,7 @@ MonoBehaviour:
   storyText: 'The silly name catches your eye immediately. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16123,7 +16144,7 @@ MonoBehaviour:
   storyText: Coffee, then? Two sugars, dairy-free milk?
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16519,7 +16540,7 @@ MonoBehaviour:
     the diner and comes back with a small notepad. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16546,7 +16567,7 @@ MonoBehaviour:
   storyText: 'The kitchen door squeaks as a young woman peeks her head through. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16601,7 +16622,7 @@ MonoBehaviour:
   storyText: Dolly waits to see which one you pick. You need to decide on something.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16629,7 +16650,7 @@ MonoBehaviour:
     eye. "
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16657,7 +16678,7 @@ MonoBehaviour:
     your coffee.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16775,7 +16796,7 @@ MonoBehaviour:
   storyText: You order your usual coffee and she scribbles something down.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16799,11 +16820,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 526
   indentLevel: 0
-  storyText: "She\u2019d been right about the order, you might as well just get it.
-    Besides, a bit of familiarity in this unfamiliar situation would be nice."
+  storyText: "She\u2019d been right about the order, you might as well just get it. "
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16831,7 +16851,7 @@ MonoBehaviour:
     at you, waiting.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16858,7 +16878,7 @@ MonoBehaviour:
   storyText: She says it with an eye roll.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16885,7 +16905,7 @@ MonoBehaviour:
   storyText: I'm psychic.
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16912,7 +16932,7 @@ MonoBehaviour:
   storyText: 'You look out the window. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16986,7 +17006,7 @@ MonoBehaviour:
   storyText: Born and raised.
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17065,6 +17085,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 991451180}
   - {fileID: 991451179}
+  - {fileID: 991451615}
+  - {fileID: 991451616}
   - {fileID: 991451178}
   - {fileID: 991451175}
   - {fileID: 991451192}
@@ -17098,7 +17120,7 @@ MonoBehaviour:
     is a small place."
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17125,7 +17147,7 @@ MonoBehaviour:
   storyText: "You pause. You don\u2019t remember mentioning any movers. "
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17152,7 +17174,7 @@ MonoBehaviour:
   storyText: She settles behind the counter and makes her own cup of coffee.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17176,11 +17198,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 553
   indentLevel: 0
-  storyText: "Definitely not. If you\u2019d ordered tea, I could have read the leaves
-    for you. Don\u2019t know how accurate it\u2019d be but I\u2019d give it a whirl."
+  storyText: 'Definitely not. '
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17208,7 +17229,7 @@ MonoBehaviour:
     the empty diner.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17236,7 +17257,7 @@ MonoBehaviour:
     until you finally have to go. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17263,7 +17284,7 @@ MonoBehaviour:
   storyText: Either way, welcome to Craven.
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17290,7 +17311,7 @@ MonoBehaviour:
   storyText: Dolly gives you a friendly wave as you leave.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17318,7 +17339,7 @@ MonoBehaviour:
     The town has a way of pulling people in. "
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17345,7 +17366,7 @@ MonoBehaviour:
   storyText: She makes a coffee of her own and raises the mug.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17372,7 +17393,7 @@ MonoBehaviour:
   storyText: Dolly seems to understand either way.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17399,7 +17420,7 @@ MonoBehaviour:
   storyText: "So, why\u2019d you move to Craven?"
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17427,7 +17448,7 @@ MonoBehaviour:
     as she talks.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17455,7 +17476,7 @@ MonoBehaviour:
     person in town is bound to shake things up a bit. "
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17482,7 +17503,7 @@ MonoBehaviour:
   storyText: "You don\u2019t exactly know what to say. "
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17509,7 +17530,7 @@ MonoBehaviour:
   storyText: Be seeing you.
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17537,7 +17558,7 @@ MonoBehaviour:
     if I were you. The movers will probably be at your house by now."
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17564,7 +17585,7 @@ MonoBehaviour:
   storyText: 'You look at your watch again. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17592,7 +17613,7 @@ MonoBehaviour:
     a new song. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17635,7 +17656,7 @@ MonoBehaviour:
   storyText: You two drink your coffee in companioned silence.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17662,7 +17683,7 @@ MonoBehaviour:
   storyText: 'She offers you a small smile before she takes a sip of her coffee. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17689,7 +17710,7 @@ MonoBehaviour:
   storyText: Do you know what time it is?
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17716,7 +17737,7 @@ MonoBehaviour:
   storyText: Dolly slips behind the counter and makes herself a cup of coffee.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17744,7 +17765,7 @@ MonoBehaviour:
     here doesn\u2019t really bring in many customers."
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17771,7 +17792,7 @@ MonoBehaviour:
   storyText: Dolly looks around at the empty tables.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17798,7 +17819,7 @@ MonoBehaviour:
   storyText: Be seeing you.
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17825,7 +17846,7 @@ MonoBehaviour:
   storyText: Dolly gives you a friendly wave as you leave.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17853,7 +17874,7 @@ MonoBehaviour:
     out the door.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17882,7 +17903,7 @@ MonoBehaviour:
     your tongue. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17909,7 +17930,7 @@ MonoBehaviour:
   storyText: You take a small sip.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17936,7 +17957,7 @@ MonoBehaviour:
   storyText: The cup is cold in your hands. The liquid is milky in color.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17963,7 +17984,7 @@ MonoBehaviour:
   storyText: A couple of minutes later, she comes back with a small cup.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17990,7 +18011,7 @@ MonoBehaviour:
   storyText: 'The smoky smell of pepper wafts through the air as she works. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18017,7 +18038,7 @@ MonoBehaviour:
   storyText: She takes the menu and goes behind the counter to make it for you.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18044,7 +18065,7 @@ MonoBehaviour:
   storyText: Be seeing you.
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18071,7 +18092,7 @@ MonoBehaviour:
   storyText: Dolly gives you a friendly wave as you leave.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18098,7 +18119,7 @@ MonoBehaviour:
   storyText: You leave the money and a nice tip on the table.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18126,7 +18147,7 @@ MonoBehaviour:
     being the one who asked. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18154,7 +18175,7 @@ MonoBehaviour:
     get going; the movers are likely already at your house."
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18182,7 +18203,7 @@ MonoBehaviour:
     in town."
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18210,7 +18231,7 @@ MonoBehaviour:
     watch."
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18238,7 +18259,7 @@ MonoBehaviour:
     her."
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18366,7 +18387,7 @@ MonoBehaviour:
     her."
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18393,7 +18414,7 @@ MonoBehaviour:
   storyText: You take a sip.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18421,7 +18442,7 @@ MonoBehaviour:
     her."
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18499,8 +18520,8 @@ MonoBehaviour:
   storyText: 'Seeing you happy with your drink, Dolly goes back behind the counter
     to clean up the equipment. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18526,8 +18547,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "The drink is perfect. You couldn\u2019t have asked for a better one."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18605,8 +18626,8 @@ MonoBehaviour:
   storyText: 'Seeing you happy with your drink, Dolly goes back behind the counter
     to clean up the equipment. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18633,8 +18654,8 @@ MonoBehaviour:
   storyText: "The drink is good. You hadn\u2019t known what to expect, but are pleasantly
     surprised. Maybe next time you\u2019ll try something else on the menu."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18662,7 +18683,7 @@ MonoBehaviour:
     for you. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19140,7 +19161,7 @@ MonoBehaviour:
   storyText: "I\u2019ve got to handle that."
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19166,8 +19187,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Dolly gives you a friendly wave before heading into the back. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19306,7 +19327,7 @@ MonoBehaviour:
     are. It looks like neither of you were paying attention.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19334,7 +19355,7 @@ MonoBehaviour:
     in the middle of town."
   description: 
   character: {fileID: 108884818}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19361,7 +19382,7 @@ MonoBehaviour:
   storyText: You nod and he sighs.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19389,7 +19410,7 @@ MonoBehaviour:
     moving in."
   description: 
   character: {fileID: 108884818}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19416,7 +19437,7 @@ MonoBehaviour:
   storyText: You dust yourself off as he looks you over.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19443,7 +19464,7 @@ MonoBehaviour:
   storyText: He offers you a hand and helps you to your feet.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19470,7 +19491,7 @@ MonoBehaviour:
   storyText: "Sorry. I wasn\u2019t watching where I was going."
   description: 
   character: {fileID: 108884818}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19497,7 +19518,7 @@ MonoBehaviour:
   storyText: He rights himself and fixes his glasses before walking over to you.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19524,7 +19545,7 @@ MonoBehaviour:
   storyText: He looks around at the papers scattered across the lawn.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19552,7 +19573,7 @@ MonoBehaviour:
     around Craven."
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19646,7 +19667,7 @@ MonoBehaviour:
     the papers look odd."
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19674,7 +19695,7 @@ MonoBehaviour:
     while he collects the other ones.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19701,7 +19722,7 @@ MonoBehaviour:
   storyText: 'You look over his shoulder. '
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19729,7 +19750,7 @@ MonoBehaviour:
     ink with a frown. '
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19756,7 +19777,7 @@ MonoBehaviour:
   storyText: Nice to meet you.
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19783,7 +19804,7 @@ MonoBehaviour:
   storyText: Wolfgang looks up from his papers.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19948,7 +19969,7 @@ MonoBehaviour:
     can\u2019t help but wonder why."
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20126,7 +20147,7 @@ MonoBehaviour:
     and I can\u2019t help but wonder why."
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20154,7 +20175,7 @@ MonoBehaviour:
     the papers look odd. "
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20182,7 +20203,7 @@ MonoBehaviour:
     around Craven."
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20209,7 +20230,7 @@ MonoBehaviour:
   storyText: He catches you staring at the papers.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20237,7 +20258,7 @@ MonoBehaviour:
     growing stack. It has to be at least forty to fifty pages.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20265,7 +20286,7 @@ MonoBehaviour:
     really make heads or tails of what exactly you\u2019re reading. "
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20293,7 +20314,7 @@ MonoBehaviour:
     is starting to make the ink bleed but they\u2019re still legible."
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20377,7 +20398,7 @@ MonoBehaviour:
   storyText: "Try not to get lost. I\u2019ll see you around."
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20404,7 +20425,7 @@ MonoBehaviour:
   storyText: 'He looks over the papers in his hands and grabs one of the charts. '
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20432,7 +20453,7 @@ MonoBehaviour:
     sector.
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20460,7 +20481,7 @@ MonoBehaviour:
     in town does as well.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20487,7 +20508,7 @@ MonoBehaviour:
   storyText: "Well, if you ever want any pointers, I\u2019m your guy."
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20514,7 +20535,7 @@ MonoBehaviour:
   storyText: 'Wolfgang shifts his papers around in his hands. '
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20541,7 +20562,7 @@ MonoBehaviour:
   storyText: 'You tell him about your house plants instead. '
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20569,7 +20590,7 @@ MonoBehaviour:
     them so I know more than the average person. "
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20596,7 +20617,7 @@ MonoBehaviour:
   storyText: "You aren\u2019t much of a botanist yourself but you do like houseplants."
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
+  portrait: {fileID: 21300000, guid: 16812d62a37968c4daf666d5f55b0231, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20624,7 +20645,7 @@ MonoBehaviour:
     From what you learn, the plants here are weird. '
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
+  portrait: {fileID: 21300000, guid: 16812d62a37968c4daf666d5f55b0231, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20653,7 +20674,7 @@ MonoBehaviour:
     really growing quickly."
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
+  portrait: {fileID: 21300000, guid: 16812d62a37968c4daf666d5f55b0231, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20680,7 +20701,7 @@ MonoBehaviour:
   storyText: He holds up the papers with a grin.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
+  portrait: {fileID: 21300000, guid: 16812d62a37968c4daf666d5f55b0231, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20708,7 +20729,7 @@ MonoBehaviour:
     much more alkaline than what is typically found in this region "
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
+  portrait: {fileID: 21300000, guid: 16812d62a37968c4daf666d5f55b0231, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20735,7 +20756,7 @@ MonoBehaviour:
   storyText: "Wolfgang\u2019s eyes light up."
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
+  portrait: {fileID: 21300000, guid: 16812d62a37968c4daf666d5f55b0231, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20817,7 +20838,7 @@ MonoBehaviour:
   storyText: "Try not to get lost. I\u2019ll see you around."
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20844,7 +20865,7 @@ MonoBehaviour:
   storyText: 'He looks over the papers in his hands and grabs one of the charts. '
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20872,7 +20893,7 @@ MonoBehaviour:
     sector.
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20900,7 +20921,7 @@ MonoBehaviour:
     in town does as well.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20996,7 +21017,7 @@ MonoBehaviour:
     waving at you like an old friend.
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21551,7 +21572,7 @@ MonoBehaviour:
   storyText: Hello! You're new here!
   description: 
   character: {fileID: 108884818}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21578,7 +21599,7 @@ MonoBehaviour:
   storyText: May I have your name?
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21602,7 +21623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1473.6644
+    x: 1472.2632
     y: 757.79987
     width: 141.04001
     height: 40
@@ -21639,7 +21660,7 @@ MonoBehaviour:
     them. You can\u2019t quite put your finger on it."
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21667,7 +21688,7 @@ MonoBehaviour:
     myself. You can call me Finch."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21695,7 +21716,7 @@ MonoBehaviour:
     standing in front of you, smiling."
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21722,7 +21743,7 @@ MonoBehaviour:
   storyText: You edge slightly closer to your front door.
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21896,7 +21917,7 @@ MonoBehaviour:
   storyText: "It\u2019s nice to see new life in this place, though."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21923,7 +21944,7 @@ MonoBehaviour:
   storyText: 'Oh, this is yours? '
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22140,8 +22161,8 @@ MonoBehaviour:
   storyText: "Finch\u2019s smile drops in an instant, and they throw up a hand as
     if to stop you. You freeze."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: e22446d443373fb4f8283abe3919e0c2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22168,7 +22189,7 @@ MonoBehaviour:
   storyText: "Let\u2019s phrase it this way. What can I call you?"
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22196,7 +22217,7 @@ MonoBehaviour:
     a bad joke. A very bad joke. I\u2019m sorry."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: e22446d443373fb4f8283abe3919e0c2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22223,8 +22244,8 @@ MonoBehaviour:
   storyText: This sudden turn throws you for a moment, and you remember the whistling
     once again. How birdlike it sounded, how uncanny in pitch.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22275,7 +22296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1464.2959
+    x: 1465.6971
     y: 821.61926
     width: 166.01001
     height: 40
@@ -22313,7 +22334,7 @@ MonoBehaviour:
   storyText: You can call me Finch. What can I call you?
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22340,7 +22361,7 @@ MonoBehaviour:
   storyText: "The tune they\u2019d been whistling echoes around your mind."
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22368,7 +22389,7 @@ MonoBehaviour:
     about them seems curious, and you find yourself curious in turn.
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22396,7 +22417,7 @@ MonoBehaviour:
     someone new around here! "
   description: 
   character: {fileID: 108884818}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22424,7 +22445,7 @@ MonoBehaviour:
     standing in front of you, smiling."
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22487,7 +22508,7 @@ MonoBehaviour:
     ago. I don\u2019t remember exactly when."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22514,7 +22535,7 @@ MonoBehaviour:
   storyText: But the Woods are curious about you.
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22542,7 +22563,7 @@ MonoBehaviour:
     think they went to any town meetings, either."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22571,7 +22592,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22648,7 +22669,7 @@ MonoBehaviour:
   storyText: You introduce yourself, being careful of your phrasing.
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22676,7 +22697,7 @@ MonoBehaviour:
     days to come."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22704,7 +22725,7 @@ MonoBehaviour:
     under Finch\u2019s bubbly exterior, much like that of a talk show host."
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22731,7 +22752,7 @@ MonoBehaviour:
   storyText: Finch nods, eyes wide and earnest.
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22809,7 +22830,7 @@ MonoBehaviour:
     days to come."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22837,7 +22858,7 @@ MonoBehaviour:
     back under the bright and bubbly smile."
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22864,7 +22885,7 @@ MonoBehaviour:
   storyText: You introduce yourself.
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22973,7 +22994,7 @@ MonoBehaviour:
     up their hands.
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
+  portrait: {fileID: 21300000, guid: e22446d443373fb4f8283abe3919e0c2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23001,7 +23022,7 @@ MonoBehaviour:
     your yard. But I mean you no harm, I promise."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
+  portrait: {fileID: 21300000, guid: e22446d443373fb4f8283abe3919e0c2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23028,7 +23049,7 @@ MonoBehaviour:
   storyText: I just came to say hello. Maybe make a new friend.
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
+  portrait: {fileID: 21300000, guid: e22446d443373fb4f8283abe3919e0c2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23058,7 +23079,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
+  portrait: {fileID: 21300000, guid: e22446d443373fb4f8283abe3919e0c2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23087,7 +23108,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23115,7 +23136,7 @@ MonoBehaviour:
     I heard something shatter.
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23142,7 +23163,7 @@ MonoBehaviour:
   storyText: This seems very comfortable, though.
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23170,7 +23191,7 @@ MonoBehaviour:
     afraid."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23247,7 +23268,7 @@ MonoBehaviour:
   storyText: Huh, a hippie. Interesting.
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23271,7 +23292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1385.4221
+    x: 1386.8235
     y: 1089.6476
     width: 144.95
     height: 40
@@ -23308,7 +23329,7 @@ MonoBehaviour:
     fear them."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23336,7 +23357,7 @@ MonoBehaviour:
     strangely.
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23363,7 +23384,7 @@ MonoBehaviour:
   storyText: 'Oh, around here the Woods are more than just trees. '
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23390,7 +23411,7 @@ MonoBehaviour:
   storyText: Do you have a TV?
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23448,7 +23469,7 @@ MonoBehaviour:
   storyText: I think they might have broken something, I heard something shatter.
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23475,7 +23496,7 @@ MonoBehaviour:
   storyText: Oh, yeah! I saw them earlier. Pretty noisy.
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23602,7 +23623,7 @@ MonoBehaviour:
   storyText: "Wow. They\u2019re really fixated on this TV."
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23662,7 +23683,7 @@ MonoBehaviour:
     home.
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23690,7 +23711,7 @@ MonoBehaviour:
     was the TV."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23717,7 +23738,7 @@ MonoBehaviour:
   storyText: Finch nods gravely.
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23744,7 +23765,7 @@ MonoBehaviour:
   storyText: Finch goes pale.
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
+  portrait: {fileID: 21300000, guid: e22446d443373fb4f8283abe3919e0c2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23973,7 +23994,7 @@ MonoBehaviour:
   storyText: "You don\u2019t think it\u2019s actually broken, do you?"
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
+  portrait: {fileID: 21300000, guid: e22446d443373fb4f8283abe3919e0c2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24000,7 +24021,7 @@ MonoBehaviour:
   storyText: You should never joke about such things.
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
+  portrait: {fileID: 21300000, guid: e22446d443373fb4f8283abe3919e0c2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24028,7 +24049,7 @@ MonoBehaviour:
     TV being broken.
   description: 
   character: {fileID: 494575130}
-  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
+  portrait: {fileID: 21300000, guid: e22446d443373fb4f8283abe3919e0c2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24055,7 +24076,7 @@ MonoBehaviour:
   storyText: Unless what?
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: bf042b9b7d4acff44abf18c3de9f5310, type: 3}
+  portrait: {fileID: 21300000, guid: e22446d443373fb4f8283abe3919e0c2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24253,7 +24274,7 @@ MonoBehaviour:
   storyText: "Oh, and don\u2019t forget to grab your gift basket!"
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24280,7 +24301,7 @@ MonoBehaviour:
   storyText: You definitely will!
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24360,7 +24381,7 @@ MonoBehaviour:
     Before we make any actual plans."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24387,7 +24408,7 @@ MonoBehaviour:
   storyText: "That\u2019s probably sensible."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24414,7 +24435,7 @@ MonoBehaviour:
   storyText: I would LOVE that!
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24441,7 +24462,7 @@ MonoBehaviour:
   storyText: You definitely will!
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24489,7 +24510,7 @@ MonoBehaviour:
   storyText: "Oh, and don\u2019t forget to grab your gift basket!"
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27501,7 +27522,7 @@ MonoBehaviour:
     stoic features.'
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27528,7 +27549,7 @@ MonoBehaviour:
   storyText: A new experience on top of all of the other new experiences.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27555,7 +27576,7 @@ MonoBehaviour:
   storyText: 'Despite wanting your usual, it might be nice to try something new. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27582,7 +27603,7 @@ MonoBehaviour:
   storyText: 'The smell of vanilla wafts through the air as she works. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27610,7 +27631,7 @@ MonoBehaviour:
     it for you. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27636,8 +27657,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: A companioned silence falls over the two of you.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27719,7 +27740,7 @@ MonoBehaviour:
     walking."
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27746,7 +27767,7 @@ MonoBehaviour:
   storyText: Do you like botany?
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27773,7 +27794,7 @@ MonoBehaviour:
   storyText: "Most people in town don\u2019t really know the difference either."
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27801,7 +27822,7 @@ MonoBehaviour:
     You even manage to keep most of them alive.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27829,7 +27850,7 @@ MonoBehaviour:
     to you.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27857,7 +27878,7 @@ MonoBehaviour:
     a more neutral soil. It\u2019s like they\u2019ve adapted or something."
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
+  portrait: {fileID: 21300000, guid: 16812d62a37968c4daf666d5f55b0231, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27885,7 +27906,7 @@ MonoBehaviour:
     to you.
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27969,7 +27990,7 @@ MonoBehaviour:
     are living, breathing beings, but around here, they\u2019re special."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28025,7 +28046,7 @@ MonoBehaviour:
     but you\u2019re\u2026"
   description: 
   character: {fileID: 108884818}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28053,7 +28074,7 @@ MonoBehaviour:
     really make heads or tails of what exactly you\u2019re reading."
   description: 
   character: {fileID: 17041313}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28080,7 +28101,7 @@ MonoBehaviour:
   storyText: Do you have any interest in botany?
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28108,7 +28129,7 @@ MonoBehaviour:
     itself over the treeline. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28135,7 +28156,7 @@ MonoBehaviour:
   storyText: We need a little excitement around here.
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28163,7 +28184,7 @@ MonoBehaviour:
     a small quiet life in the sticks."
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28190,7 +28211,7 @@ MonoBehaviour:
   storyText: With no other idea of what to say, you shrug.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28218,7 +28239,7 @@ MonoBehaviour:
     cream is to die for."
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28245,7 +28266,7 @@ MonoBehaviour:
   storyText: The forest seems so dense and all-consuming.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28272,7 +28293,7 @@ MonoBehaviour:
   storyText: 'You pay for your coffee and leave a nice tip on the table. '
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28300,7 +28321,7 @@ MonoBehaviour:
     not there already."
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28327,7 +28348,7 @@ MonoBehaviour:
   storyText: "Music\u2019s good too. I picked it myself."
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28354,7 +28375,7 @@ MonoBehaviour:
   storyText: "Maybe she\u2019s waiting for her shift to end?"
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28380,8 +28401,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: A companioned silence falls over the two of you.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28409,7 +28430,7 @@ MonoBehaviour:
     place which fruit it is."
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28436,7 +28457,7 @@ MonoBehaviour:
   storyText: My mistake, truly. This house has been empty for some time.
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portrait: {fileID: 21300000, guid: 7d9b307b1aa30dd4d9e1a5fa2c418f7a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28561,7 +28582,7 @@ MonoBehaviour:
     First impressions can be deceiving."
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29358,6 +29379,88 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &991451614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1006
+  indentLevel: 0
+  storyText: Besides, a bit of familiarity in this unfamiliar situation would be
+    nice.
+  description: 
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1007
+  indentLevel: 0
+  storyText: "If you\u2019d ordered tea, I could have read the leaves for you."
+  description: 
+  character: {fileID: 1508007126}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1008
+  indentLevel: 0
+  storyText: "Don\u2019t know how accurate it\u2019d be, but I\u2019d give it a whirl."
+  description: 
+  character: {fileID: 1508007126}
+  portrait: {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &997589381
 GameObject:
   m_ObjectHideFlags: 0
@@ -29810,15 +29913,15 @@ RectTransform:
   m_GameObject: {fileID: 1223970435}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.48, y: 1.48, z: 1.48}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 42422114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 30, y: 245}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1223970437
 MonoBehaviour:
@@ -29992,7 +30095,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a1992cc9687a44553914b9a32a999ab8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8926a03f7b9df1c4aa535f051176cc08, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -30530,7 +30633,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -733, y: 19.99997}
+  m_AnchoredPosition: {x: -739.9, y: 19.99997}
   m_SizeDelta: {x: 300, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1464470366
@@ -30553,7 +30656,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3aa0321884293480fa363f62761d1e1b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8d7356534074d4b4881108fdd7c5f2ff, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -30643,14 +30746,14 @@ RectTransform:
   m_GameObject: {fileID: 1486803347}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.09, y: 1.09, z: 1.09}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1648311394}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 140, y: -49}
+  m_AnchoredPosition: {x: 160.11, y: -73.3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1486803349
@@ -30814,11 +30917,17 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
+  - {fileID: 21300000, guid: e13711ca009bb7a4fa7020a1cb070b5a, type: 3}
   - {fileID: 21300000, guid: 11f7a61cacae749ec9bea5412d38e3e3, type: 3}
+  - {fileID: 21300000, guid: db73836ede15faa4a85a649de53e25f0, type: 3}
   - {fileID: 21300000, guid: e6b7dc34cec7649aeae74b0c1091f650, type: 3}
+  - {fileID: 21300000, guid: 8f04e69217cdcde488ecc94558ca71d6, type: 3}
   - {fileID: 21300000, guid: 5063e04e42397431596db32a0a3129c4, type: 3}
+  - {fileID: 21300000, guid: 34057d3f537057043993aa2fae56ce9b, type: 3}
   - {fileID: 21300000, guid: fe1a6b1c354634285bcd3ebe4ad502bb, type: 3}
+  - {fileID: 21300000, guid: ce65b0bef02b48f4faa24dc0f5dd75c3, type: 3}
   - {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  - {fileID: 21300000, guid: 1df14692705fdb241bc4e81daad3a313, type: 3}
   - {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 1542374397}
@@ -31094,7 +31203,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -733, y: 19.99997}
+  m_AnchoredPosition: {x: -739.9, y: 19.99997}
   m_SizeDelta: {x: 300, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1648311395
@@ -31117,7 +31226,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3aa0321884293480fa363f62761d1e1b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8d7356534074d4b4881108fdd7c5f2ff, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -31647,8 +31756,11 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
+  - {fileID: 21300000, guid: a5d238786ff2f854e8937f14dead993a, type: 3}
   - {fileID: 21300000, guid: 8f529b17ca4dc4d4b92dd71714ab8cc8, type: 3}
+  - {fileID: 21300000, guid: 16812d62a37968c4daf666d5f55b0231, type: 3}
   - {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
+  - {fileID: 21300000, guid: 94f4be674bc533543aef5f05e9b20f12, type: 3}
   - {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 1542374397}
