@@ -15,12 +15,16 @@ public class Utility_Functions : MonoBehaviour
     public EventInstance broadcastIntroInst;
     public EventInstance broadcastDanceInst;
     public EventInstance masterDialInst;
+    public EventInstance puppetMusicInst;
+    public EventInstance arrivalMusicInst;
 
     public EventReference broadcastAdRef;
     public EventReference broadcastEvacRef;
     public EventReference broadcastIntroRef;
     public EventReference broadcastDanceRef;
     public EventReference masterDialRef;
+    public EventReference puppetMusicRef;
+    public EventReference arrivalMusicRef;
 
     private void Start()
     {
@@ -30,13 +34,15 @@ public class Utility_Functions : MonoBehaviour
         broadcastIntroInst = FMODUnity.RuntimeManager.CreateInstance(broadcastIntroRef);
         broadcastDanceInst = FMODUnity.RuntimeManager.CreateInstance(broadcastDanceRef);
         masterDialInst = FMODUnity.RuntimeManager.CreateInstance(masterDialRef);
-
+        puppetMusicInst = FMODUnity.RuntimeManager.CreateInstance(puppetMusicRef);
+        arrivalMusicInst = FMODUnity.RuntimeManager.CreateInstance(arrivalMusicRef);
     }
 
     private void Update()
     {
         // Get parameters
         float dial = flowchart.GetFloatVariable("Haunted_UI_Dial");
+        float section = flowchart.GetFloatVariable("Section_Switch");
 
         // Set parameters
         broadcastAdInst.setParameterByName("Haunted_UI_Dial", dial);
@@ -44,6 +50,8 @@ public class Utility_Functions : MonoBehaviour
         broadcastIntroInst.setParameterByName("Haunted_UI_Dial", dial);
         broadcastDanceInst.setParameterByName("Haunted_UI_Dial", dial);
         masterDialInst.setParameterByName("Haunted_UI_Dial", dial);
+        puppetMusicInst.setParameterByName("Haunted_UI_Dial", dial);
+        arrivalMusicInst.setParameterByName("Section_Switch", section);
     }
 
     public void StopAllAudio()
