@@ -10,6 +10,9 @@ public class Utility_Functions : MonoBehaviour
     public Flowchart flowchart;
     public GameObject Backgrounds;
 
+    public float resetTimerMax;
+    public float resetTimer;
+
     public EventInstance broadcastAdInst;
     public EventInstance broadcastEvacInst;
     public EventInstance broadcastIntroInst;
@@ -52,12 +55,33 @@ public class Utility_Functions : MonoBehaviour
         masterDialInst.setParameterByName("Haunted_UI_Dial", dial);
         puppetMusicInst.setParameterByName("Haunted_UI_Dial", dial);
         arrivalMusicInst.setParameterByName("Section_Switch", section);
+
+        //timer stuff
+        if (Input.anyKeyDown)
+        {
+            resetTimer = 0;
+        }
+        resetTimer += Time.deltaTime;
+        if (resetTimer >= resetTimerMax) 
+        {
+            resetTimer = 0;
+            flowchart.ExecuteBlock("Manual_Restart");
+        }
+
     }
 
     public void StopAllAudio()
     {
+        stopAmb("dial");
+        stopAmb("evac");
+        stopAmb("dance");
+        stopAmb("arrival");
+        stopAmb("intro");
+        stopAmb("ad");
+        /*
         FMOD.Studio.Bus playerBus = FMODUnity.RuntimeManager.GetBus("bus:/player");
-        playerBus.stopAllEvents(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        //playerBus.stopAllEvents(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        */
     }
 
     public void SetBackground()
@@ -103,6 +127,9 @@ public class Utility_Functions : MonoBehaviour
             case "dial":
                 masterDialInst.start();
                 break;
+            case "arrival":
+                arrivalMusicInst.start();
+                break;
             default:
                 Debug.Log("Ambience string " + ambToPlay + " not found.");
                 break;
@@ -127,6 +154,9 @@ public class Utility_Functions : MonoBehaviour
                 break;
             case "dial":
                 masterDialInst.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                break;
+            case "arrival":
+                arrivalMusicInst.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
                 break;
             default:
                 Debug.Log("Ambience string " + ambToStop + " not found.");
