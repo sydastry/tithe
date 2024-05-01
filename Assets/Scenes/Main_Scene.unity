@@ -8435,8 +8435,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 991451267}
-  selectedCommands: []
+  - {fileID: 991451282}
+  selectedCommands:
+  - {fileID: 991451701}
   variables:
   - {fileID: 991450688}
   - {fileID: 991450967}
@@ -40259,7 +40260,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "They grow best in acidic soil but they\u2019re really growing quickly."
   description: 
-  character: {fileID: 17041313}
+  character: {fileID: 1825282074}
   portrait: {fileID: 21300000, guid: 16812d62a37968c4daf666d5f55b0231, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -40742,7 +40743,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &991451712
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
