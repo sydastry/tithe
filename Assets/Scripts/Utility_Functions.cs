@@ -13,6 +13,8 @@ public class Utility_Functions : MonoBehaviour
     public float resetTimerMax;
     public float resetTimer;
 
+    public float needleSpeed;
+
     public EventInstance broadcastAdInst;
     public EventInstance broadcastEvacInst;
     public EventInstance broadcastIntroInst;
@@ -67,7 +69,22 @@ public class Utility_Functions : MonoBehaviour
             resetTimer = 0;
             flowchart.ExecuteBlock("Manual_Restart");
         }
+        
+        //dial mover:
+        float hauntedDial = flowchart.GetFloatVariable("Haunted_UI_Dial");
+        float hauntedNeedle = flowchart.GetFloatVariable("Haunted_Needle");
+        if (hauntedNeedle < hauntedDial)
+        {
+            hauntedNeedle += needleSpeed;
+            Debug.Log("haunted needle is: " + hauntedNeedle);
+        }
+        else if (hauntedNeedle > hauntedDial)
+        {
+            hauntedNeedle += -needleSpeed;
+            Debug.Log("haunted needle is: " + hauntedNeedle);
+        }
 
+        flowchart.SetFloatVariable("Haunted_Needle", hauntedNeedle);
     }
 
     public void StopAllAudio()
