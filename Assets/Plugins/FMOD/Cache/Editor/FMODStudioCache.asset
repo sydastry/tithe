@@ -177,7 +177,7 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638501183678822210
+  lastModified: 638499880469854339
   FileSizes:
   - Name: Desktop
     Value: 2249376
@@ -697,7 +697,7 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638501183677412008
+  lastModified: 638499884847300214
   FileSizes:
   - Name: Desktop
     Value: 522592
@@ -878,7 +878,7 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 638501183679488133
+  lastModified: 638501644839220075
   FileSizes:
   - Name: Desktop
     Value: 9828064
@@ -962,7 +962,7 @@ MonoBehaviour:
   - {fileID: -3017159786699918443}
   StringsBanks:
   - {fileID: 487377641171352986}
-  cacheTime: 638501183679488133
+  cacheTime: 638501648799260421
   cacheVersion: 131616
 --- !u!114 &80444607701756792
 MonoBehaviour:
@@ -1085,7 +1085,7 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638499490301742661
+  lastModified: 638499884847332403
   FileSizes:
   - Name: Desktop
     Value: 3826
@@ -1265,7 +1265,7 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Ambient.bank
   Name: Ambient
   StudioPath: bank:/Ambient
-  lastModified: 638499490301648511
+  lastModified: 638501648799260421
   FileSizes:
   - Name: Desktop
     Value: 1574048
@@ -1714,7 +1714,7 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638501183678634623
+  lastModified: 638501644837450975
   FileSizes:
   - Name: Desktop
     Value: 14613856
