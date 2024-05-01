@@ -115,6 +115,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{7c1f50cb-06d4-4295-8008-fdb07597bcd3}">
+		<property name="volume">
+			<value>-5.5</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>

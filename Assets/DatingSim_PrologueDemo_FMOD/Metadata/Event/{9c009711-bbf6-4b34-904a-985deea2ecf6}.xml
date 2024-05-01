@@ -170,7 +170,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{2e612c4b-f58c-4662-b024-a38ed46cb857}">
 		<property name="volume">
-			<value>-6.5</value>
+			<value>-5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{bbcc05d3-5c3e-4211-84f5-a475399f44fc}</destination>
@@ -407,7 +407,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3c447b70-6457-4f10-8a89-ae1834ed19ce}">
 		<property name="volume">
-			<value>-1.5</value>
+			<value>-2.5</value>
 		</property>
 		<property name="name">
 			<value>Solos</value>
