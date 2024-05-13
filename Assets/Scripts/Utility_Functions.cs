@@ -4,6 +4,7 @@ using UnityEngine;
 using Fungus;
 using FMODUnity;
 using FMOD.Studio;
+using UnityEngine.SceneManagement;
 
 public class Utility_Functions : MonoBehaviour
 {
@@ -67,8 +68,18 @@ public class Utility_Functions : MonoBehaviour
         if (resetTimer >= resetTimerMax) 
         {
             resetTimer = 0;
+            flowchart.SetBooleanVariable("is_restarting", true);
             flowchart.ExecuteBlock("Manual_Restart");
         }
+        
+        //manual restart: SHIFT + TAB
+        if (Input.GetKey(KeyCode.Tab) && Input.GetKey(KeyCode.LeftShift))
+        {
+            resetTimer = 0;
+            flowchart.SetBooleanVariable("is_restarting", true);
+            flowchart.ExecuteBlock("Manual_Restart");
+        }
+        
         
         //dial mover:
         float hauntedDial = flowchart.GetFloatVariable("Haunted_UI_Dial");
